@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1">
+  <category>
+    <pattern>HELLO</pattern>
+    <template><random><li>Hello! What would you like to talk about?</li><li>Hi there. What's on your mind?</li><li>Hey! Where should we begin?</li></random></template>
+  </category>
+  <category>
+    <pattern>HI</pattern>
+    <template>Hello! What would you like to talk about?</template>
+  </category>
+  <category>
+    <pattern>HEY</pattern>
+    <template>Hey! I'm here. What's on your mind?</template>
+  </category>
+  <category>
+    <pattern>HOW ARE YOU</pattern>
+    <template>I'm doing well, thanks for asking. More importantly, how are you?</template>
+  </category>
+  <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>I'm <bot name="name"/>, a small AIML chatbot. Nice to meet you.</template>
+  </category>
+  <category>
+    <pattern>WHO ARE YOU</pattern>
+    <template>I'm Commonplace, a friendly rule-based chatbot built with AIML.</template>
+  </category>
+  <category>
+    <pattern>WHAT CAN YOU DO</pattern>
+    <template>I can chat, answer a few common questions, tell a joke, and respond to things you share. My replies come from AIML patterns, so I'm happiest with clear, familiar phrasing.</template>
+  </category>
+  <category>
+    <pattern>TELL ME A JOKE</pattern>
+    <template>Why did the scarecrow get promoted? Because they were outstanding in their field.</template>
+  </category>
+  <category>
+    <pattern>JOKE</pattern>
+    <template>Why did the scarecrow get promoted? Because they were outstanding in their field.</template>
+  </category>
+  <category>
+    <pattern>THANK YOU</pattern>
+    <template>You're welcome. Glad I could help.</template>
+  </category>
+  <category>
+    <pattern>THANKS</pattern>
+    <template>Anytime!</template>
+  </category>
+  <category>
+    <pattern>BYE</pattern>
+    <template>Take care. I'll be here when you want to chat again.</template>
+  </category>
+  <category>
+    <pattern>GOODBYE</pattern>
+    <template>Goodbye for now. Have a good one!</template>
+  </category>
+  <category>
+    <pattern>HELP</pattern>
+    <template>Try saying hello, asking what I can do, or telling me your name. You can also ask me for a joke or share how you're feeling.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS AIML</pattern>
+    <template>AIML stands for Artificial Intelligence Markup Language. It uses categories with patterns and templates to match a message and choose a reply.</template>
+  </category>
+  <category>
+    <pattern>MY NAME IS *</pattern>
+    <template>Nice to meet you, <star/>. What would you like to talk about?</template>
+  </category>
+  <category>
+    <pattern>I LIKE *</pattern>
+    <template>I'll remember that you like <star/> for this conversation. What do you enjoy about it?</template>
+  </category>
+  <category>
+    <pattern>I FEEL *</pattern>
+    <template>Thanks for telling me. Feeling <star/> can be a lot to carry. Would you like to say a little more about what's behind it?</template>
+  </category>
+  <category>
+    <pattern>CAN YOU HELP ME WITH *</pattern>
+    <template>I'll do my best to help with <star/>. What's the first thing you'd like to figure out?</template>
+  </category>
+  <category>
+    <pattern>*</pattern>
+    <template><random><li>Tell me a little more about that.</li><li>What part of that feels most important to you?</li><li>I'm listening. Where would you like to take this?</li></random></template>
+  </category>
+</aiml>
